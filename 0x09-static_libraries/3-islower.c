@@ -1,21 +1,14 @@
 #include "main.h"
 
 /**
- * _islower - Function that checks for lowercase letters
+ * _islower - prints 1 or 0 depending on input
+ * @c: first parameter
  *
- * @c: a character
- *
- * Return: 1 if c is a lowercase, 0 if c is not a lowercase
+ * Description: prints all lowercase letters
+ * Return: Always(0).
  */
 
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return (c >= 'a' && c <= 'z');
 }
